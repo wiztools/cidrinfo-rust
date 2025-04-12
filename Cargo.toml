@@ -1,0 +1,8 @@
+[package]
+name = "cidrinfo"
+version = "0.1.0"
+edition = "2021"
+description = "A CLI tool to display information about CIDR notation IP addresses"
+authors = ["Subhash Chandran <sc@mvn.me>"]
+
+[dependencies]
