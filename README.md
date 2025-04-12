@@ -19,8 +19,8 @@ A simple command-line utility that provides detailed information about IP addres
 1. Ensure you have Rust and Cargo installed (https://rustup.rs/)
 2. Clone this repository:
    ```
-   git clone https://github.com/yourusername/cidrinfo.git
-   cd cidrinfo
+   git clone https://github.com/wiztools/cidrinfo-rust.git
+   cd cidrinfo-rust
    ```
 3. Build the project:
    ```
