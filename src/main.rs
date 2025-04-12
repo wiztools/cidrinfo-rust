@@ -78,18 +78,18 @@ fn display_cidr_info(ip: Ipv4Addr, prefix_len: u8) {
 
 fn determine_ip_type(ip: &Ipv4Addr) -> &'static str {
     if ip.is_private() {
-        "is-private"
+        "private"
     } else if ip.is_loopback() {
-        "is-loopback"
+        "loopback"
     } else if ip.is_link_local() {
-        "is-link-local"
+        "link-local"
     } else if ip.is_broadcast() {
-        "is-broadcast"
+        "broadcast"
     } else if ip.is_multicast() {
-        "is-multicast"
+        "multicast"
     } else if ip.is_unspecified() {
-        "is-unspecified"
+        "unspecified"
     } else {
-        "is-public"
+        "public"
     }
 }
