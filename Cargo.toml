@@ -6,3 +6,4 @@ description = "A CLI tool to display information about CIDR notation IP addresse
 authors = ["Subhash Chandran <sc@mvn.me>"]
 
 [dependencies]
+num-format = "0.4"

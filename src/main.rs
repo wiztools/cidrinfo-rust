@@ -1,3 +1,4 @@
+use num_format::{Locale, ToFormattedString};
 use std::env;
 use std::net::Ipv4Addr;
 use std::process;
@@ -72,7 +73,7 @@ fn display_cidr_info(ip: Ipv4Addr, prefix_len: u8) {
     println!("Network:     {}/{}", network_addr, prefix_len);
     println!("Netmask:     {}", netmask);
     println!("CIDR Range:  {}  <-to->  {}", first_ip, last_ip);
-    println!("Count:       {}", count);
+    println!("Count:       {}", count.to_formatted_string(&Locale::en));
     println!("Type:        {}", ip_type);
 }
 
