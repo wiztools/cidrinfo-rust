@@ -75,13 +75,13 @@ Type:        is-public
 
 The tool identifies various network types:
 
-- `is-private`: RFC 1918 private networks (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16)
-- `is-loopback`: Loopback addresses (127.0.0.0/8)
-- `is-link-local`: Link-local addresses (169.254.0.0/16)
-- `is-broadcast`: Broadcast address (255.255.255.255)
-- `is-multicast`: Multicast addresses (224.0.0.0/4)
-- `is-unspecified`: Unspecified address (0.0.0.0)
-- `is-public`: Public IP addresses (any address not falling into the above categories)
+- `private`: RFC 1918 private networks (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16)
+- `loopback`: Loopback addresses (127.0.0.0/8)
+- `link-local`: Link-local addresses (169.254.0.0/16)
+- `broadcast`: Broadcast address (255.255.255.255)
+- `multicast`: Multicast addresses (224.0.0.0/4)
+- `unspecified`: Unspecified address (0.0.0.0)
+- `public`: Public IP addresses (any address not falling into the above categories)
 
 ## Error Handling
 
